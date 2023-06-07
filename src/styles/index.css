@@ -10,3 +10,67 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#app{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#box {
+  margin-top: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 0 7px 7px rgba(0, 0, 0, 0.123);
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .delete-button {
+    display: none;
+    border: none;
+    background-color: white;
+    color: rgba(255, 0, 0, 0.479);
+}
+  
+  li:hover .delete-button {
+    display: inline-block;
+    margin-left: 70px;
+  }
+  input{
+    border: 1px solid rgba(128, 128, 128, 0.377);
+  }
+  .box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+  .page1{
+    height: 3px;
+    border: 1px solid rgba(2, 0, 0, 0.178);
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: white;
+   
+  }
+  .page2{
+    height: 3px;
+    border: 1px solid rgba(2, 0, 0, 0.171);
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: white;
+    
+  }
+  .page3{
+    height: 3px;
+    border: 1px solid rgba(2, 0, 0, 0.178);
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: white;
+  }
+  .text{
+    color: rgba(128, 128, 128, 0.603);
+    border-top: 1px solid rgba(128, 128, 128, 0.301);
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+  }
