@@ -20,6 +20,7 @@ const Todolist = () => {
     <div>
       <h2>To-Do List</h2>
       <input
+      className="text1"
         type="text"
         value={newTask}
         onChange={(e) => setNewTask(e.target.value)}
